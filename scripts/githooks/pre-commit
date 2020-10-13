@@ -1,0 +1,8 @@
+printf "Running ktlint on directory\n"
+
+./ktlint
+
+if [[ "$?" != 0 ]]; then
+  printf "Failed ktlint, please fix (ktlint -F) and recommit\n"
+  exit 1
+fi

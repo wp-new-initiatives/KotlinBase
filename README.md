@@ -17,9 +17,6 @@
 ```
 ENV
 CONSUMER_APPS_URL
-SEO_DB_USER
-SEO_DB_PASS
-SEO_DB_URL
 ```
 * Integrate them into your system by editing your Intellij configuration and adding an `Environment variable`:
     * Open the `KotlinProject.kt` file

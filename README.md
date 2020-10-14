@@ -1,4 +1,4 @@
-# Onepages Integration Layer
+# Onepages Kotlin Base Project
 
 # Setup
 * we recommend downloading and installing Intellij IDEA
